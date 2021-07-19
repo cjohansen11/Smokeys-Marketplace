@@ -1,4 +1,3 @@
-
 # Smokey's Marketplace
 
 Smokey's is a web app where members can come to trade or borrow items and services offered by their neighbors.
@@ -70,7 +69,7 @@ To run tests, run the following command
 ## API Reference - Transactions
 
 ### List Transactions
-Retruns all transactions for a given user.
+Returns all transactions for a given user.
 
 ```http
   GET /transactions/
