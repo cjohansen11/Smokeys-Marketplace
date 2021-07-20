@@ -183,7 +183,7 @@ describe('Transactions API', () => {
       chai.request(server)
         .get(`/transactions/user?user_id=${randUser}`)
         .end((err, res) => {
-          console.log(res.body)
+          res.body[0].fromUser.should.have.property('_id');
           done();
         })
     })
